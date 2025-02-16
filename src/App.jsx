@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="grid gap-10 pt-10 xl:max-w-248 xl:mx-auto xl:gap-12">
+      <main className="grid gap-10 pt-10 xl:max-w-248 xl:mx-auto xl:gap-12 dark:bg-slate-950 dark:text-gray-50">
         <WelcomeText />
         <Input
           textInput={textInput}

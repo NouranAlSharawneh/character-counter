@@ -42,21 +42,21 @@ const CharacterCount = ({ textInput, excludeSpace }) => {
           src={PurpleSvg}
           title="Total Characters"
           count={countCharacter()}
-          color="bg-purple-600/40 "
+          color="bg-purple-600/40 dark:bg-purple-400/90"
         />
         <Cards
           className="flex-1"
           src={OrangeSvg}
           title="Word Count"
           count={textInput === "" ? "00" : wordCount()}
-          color="bg-orange-400/90"
+          color="bg-orange-400/90 dark:bg-amber-500"
         />
         <Cards
           className="flex-1"
           src={RedSvg}
           title="Sentence Count"
           count={sentenceCount()}
-          color="bg-orange-600/70"
+          color="bg-orange-600/70 dark:bg-red-400/90"
         />
       </div>
       <div className="grid gap-3 mb-15">
