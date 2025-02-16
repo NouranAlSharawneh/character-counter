@@ -3,7 +3,7 @@ const Cards = ({ src, title, count, color }) => {
     <div
       className={`relative flex p-5 rounded-2xl overflow-hidden ${color} w-full`}
     >
-      <div className="grid gap-2">
+      <div className="grid gap-2 text-slate-950">
         <h3 className="text-4xl font-extrabold">{count}</h3>
         <p>{title}</p>
       </div>
