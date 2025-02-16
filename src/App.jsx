@@ -7,6 +7,8 @@ import WelcomeText from "./ui/WelcomeText";
 const App = () => {
   const [textInput, setTextInput] = useState("");
   const [excludeSpace, setExcludeSpace] = useState(false);
+  const [characterLimit, setCharacterLimit] = useState(false);
+  const [inputLimit, setInputLimit] = useState(300);
   return (
     <>
       <Header />
@@ -17,6 +19,10 @@ const App = () => {
           setTextInput={setTextInput}
           excludeSpace={excludeSpace}
           setExcludeSpace={setExcludeSpace}
+          characterLimit={characterLimit}
+          setCharacterLimit={setCharacterLimit}
+          inputLimit={inputLimit}
+          setInputLimit={setInputLimit}
         />
         <CharacterCount textInput={textInput} excludeSpace={excludeSpace} />
       </main>
