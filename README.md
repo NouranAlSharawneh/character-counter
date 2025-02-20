@@ -37,7 +37,7 @@ To run the project locally:
 ### 1. Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/character-counter.git
+git clone https://github.com/NouranAlSharawneh/character-counter.git
 cd character-counter
 ```
 
